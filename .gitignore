@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# NFS temporary files
+.nfs*
+**/.nfs*
+
+# Dataset / data
+data/
+dataset/
+datasets/
+
+# Results / outputs
+result/
+results/
+output/
+outputs/
+
+# Training outputs
+saves/
+checkpoints/
+work_dirs/
+runs/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# System files
+.DS_Store
+Thumbs.db
