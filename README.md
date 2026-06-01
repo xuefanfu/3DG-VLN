@@ -113,22 +113,12 @@ pip install -r requirements.txt
 
 If you use AirSim-based evaluation, please make sure that Unreal Engine, AirSim, and the corresponding simulator environment are correctly installed.
 
-## Training
-
-To train the 3DG-VLN model, run:
-
-```bash
-bash scripts/train.sh
-```
-
-Please modify the dataset path, model path, and output directory in the configuration file before training.
-
 ## Evaluation
 
 To evaluate the model on the test split, run:
 
 ```bash
-bash scripts/eval.sh
+bash scripts/3DG-VLN_eval.sh
 ```
 
 To compute navigation metrics, run:
@@ -156,11 +146,9 @@ This repository builds upon and benefits from several excellent open-source proj
 
 The implementation is partly inspired by or adapted from the following projects:
 
-* [AirSim](https://github.com/microsoft/AirSim)
-* [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)
-* [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
-* [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL)
 * [TravelUAV](https://github.com/xxx/TravelUAV)
+* [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
+* [AerialVLN](https://github.com/AirVLN/AirVLN)
 
 If you use any third-party components, models, or datasets, please also follow their original licenses.
 
