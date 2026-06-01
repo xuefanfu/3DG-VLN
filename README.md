@@ -163,10 +163,3 @@ If you find this work useful, please consider citing our paper:
 }
 ```
 
-## Contact
-
-For questions about the dataset, code, or pretrained weights, please contact:
-
-```text
-[Your Name] - [Your Email]
-```
