@@ -148,7 +148,6 @@ The implementation is partly inspired by or adapted from the following projects:
 * [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
 * [AerialVLN](https://github.com/AirVLN/AirVLN)
 
-If you use any third-party components, models, or datasets, please also follow their original licenses.
 
 ## Citation
 
