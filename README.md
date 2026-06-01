@@ -34,9 +34,7 @@ We release the **UAV-VLN-FOV** benchmark constructed for the 3DG-VLN task.
 The benchmark contains:
 
 * 2,717 trajectories
-* 31,878 trajectory-observation tuples
-* 14 scenes covering rural, town, and urban environments
-* 89 target categories
+* Concise high-level instruction
 * High-resolution dual-view images
 * Continuous 3D waypoint annotations
 * Evaluation splits for seen, unseen-object, and unseen-scene testing
