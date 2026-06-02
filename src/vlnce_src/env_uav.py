@@ -79,7 +79,6 @@ class AirVLNENV:
     def __init__(self, batch_size=8, 
                  dataset_path=None,
                  save_path=None,
-                 eval_json_path=None,
                  seed=1,
                  dataset_group_by_scene=True,
                  activate_maps=[],
@@ -87,7 +86,6 @@ class AirVLNENV:
                  ):
         self.batch_size = batch_size
         self.dataset_path = dataset_path
-        self.eval_json_path = eval_json_path
         self.seed = seed
         self.collected_keys = set()
         self.dataset_group_by_scene = dataset_group_by_scene
