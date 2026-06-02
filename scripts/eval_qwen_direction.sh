@@ -67,7 +67,7 @@ do
     echo "[INFO] Retry count: ${retry_count}"
     echo "=========================================="
 
-    CUDA_VISIBLE_DEVICES=1 python -u $root_dir/src/vlnce_src/eval_qwenvl_direction.py \
+    CUDA_VISIBLE_DEVICES=${GPU_ID} python -u $root_dir/src/vlnce_src/eval_qwenvl_direction.py \
         --run_type eval \
         --name  qwen2_5vl \
         --gpu_id 0 \
@@ -77,17 +77,16 @@ do
         --always_help True \
         --use_gt True \
         --maxWaypoints 100 \
-        --use_target_des False \
-        --dataset_path /opt/data/private/lwt-project/FOV-dataset/our_collect_data_select_3180_vision_test/ \
-        --eval_save_path /opt/data/private/lwt-project/3DG-VLN-release-code/result/temp_test_1 \
-        --model_path /opt/data/private/lwt-project/3DG-VLN-release-code/pretrain-model/qwen2_5vl-7b_brief_lora_sft \
-        --eval_json_path /opt/data/private/lwt-project/FOV-dataset/our_collect_data_select_3180_gt/our_collect_data_select_3180_vision_test.json \
-        --map_spawn_area_json_path /opt/data/private/lwt-project/FOV-dataset/meta/map_spawnarea_info.json \
-        --object_name_json_path /opt/data/private/lwt-project/FOV-dataset/meta/object_description.json \
+        --use_target_des True \
+        --dataset_path /test/ \
+        --eval_save_path /result/test \
+        --model_path /model/3DG-VLN \
+        --map_spawn_area_json_path /meta/map_spawnarea_info.json \
+        --object_name_json_path /meta/object_description.json \
         --groundingdino_config $root_dir/src/model_wrapper/utils/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py \
         --groundingdino_model_path $root_dir/src/model_wrapper/utils/GroundingDINO/groundingdino_swint_ogc.pth \
-        --target_des_path '/opt/data/private/lwt-project/FOV-dataset/nobject_description_brief_by_deepseek-v3-2-251201_abstruct_object_feature_dele_white.txt' \
-        --obj_desc_json_path '/opt/data/private/lwt-project/FOV-dataset/traj_des_all_test_update_new_brief.json'
+        --target_des_path '/meta/object_attribute' \
+        --obj_desc_json_path '/meta/instructions.json'
 
 
     exit_code=$?
