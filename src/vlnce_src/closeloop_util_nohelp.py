@@ -34,8 +34,8 @@ def initialize_env(dataset_path, save_path, train_json_path, activate_maps=[]):
     train_env = AirVLNENV(batch_size=args.batchSize, dataset_path=dataset_path, save_path=save_path, eval_json_path=train_json_path, activate_maps=activate_maps)
     return train_env
 
-def initialize_env_eval(dataset_path, save_path, eval_json_path, port):
-    train_env = AirVLNENV(batch_size=args.batchSize, dataset_path=dataset_path, save_path=save_path, eval_json_path=eval_json_path, port=port)
+def initialize_env_eval(dataset_path, save_path, port):
+    train_env = AirVLNENV(batch_size=args.batchSize, dataset_path=dataset_path, save_path=save_path, port=port)
     return train_env
 
 def save_to_dataset_dagger(episodes, path, dagger_it, teacher_after_collision_steps):
