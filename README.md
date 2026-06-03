@@ -45,9 +45,7 @@ The dataset is designed to evaluate precise *see-and-reach* navigation, where th
 
 The dataset will be released at:
 
-```text
-[Dataset Download Link] https://pan.baidu.com/s/1slWa79ZdNIHid_fwqyhdxA?pwd=ymav 提取码:ymav 
-```
+Baidu Cloud: [Dataset Download](链接:https://pan.baidu.com/s/1slWa79ZdNIHid_fwqyhdxA?pwd=ymav 提取码:ymav)  
 
 After downloading, please organize the dataset as follows:
 
