@@ -63,10 +63,7 @@ After downloading, please organize the dataset as follows:
 ## Pretrained Weights
 
 We provide pretrained weights for the 3DG-VLN model.
-
-```text
-[Pretrained Weight Download Link]
-```
+Baidu Cloud: Pretrained Weight Download Link](https://pan.baidu.com/s/11lLcRczubWA01-33xhbK5A 提取码: sasg ) 
 
 Please place the downloaded weights under:
 
