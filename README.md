@@ -46,7 +46,7 @@ The dataset is designed to evaluate precise *see-and-reach* navigation, where th
 The dataset will be released at:
 
 ```text
-[Dataset Download Link]
+[Dataset Download Link] (https://pan.baidu.com/s/1slWa79ZdNIHid_fwqyhdxA 提取码: ymav )
 ```
 
 After downloading, please organize the dataset as follows:
@@ -57,8 +57,8 @@ After downloading, please organize the dataset as follows:
 │   └── UAV-VLN-FOV/
 │       ├── train/
 │       ├── test/
-│       ├── test_unseen_object/
-│       ├── test_unseen_scene/
+│       ├── unobject/
+│       ├── unscene/
 │       └── meta/
 ```
 
