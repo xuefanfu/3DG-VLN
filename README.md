@@ -92,7 +92,6 @@ Please place the downloaded weights under:
 
 ## Installation
 
-We recommend using Conda to create the environment.
 
 ```bash
 conda create -n 3dg-vln python=3.10 -y
@@ -105,7 +104,34 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-If you use AirSim-based evaluation, please make sure that Unreal Engine, AirSim, and the corresponding simulator environment are correctly installed.
+## Simulator Environments
+
+The simulator environments used in this project are from [TravelUAV](https://github.com/prince687028/TravelUAV).
+
+Please download the simulator environments from TravelUAV and organize them as follows:
+
+```text
+.
+├── carla_town_envs
+│   ├── Town01
+│   ├── Town02
+│   ├── Town03
+│   └── ...
+├── closeloop_envs
+│   ├── Engine
+│   ├── ModularEuropean
+│   ├── ModularEuropean.sh
+│   ├── ModularPark
+│   ├── ModularPark.sh
+│   └── ...
+└── extra_envs
+    ├── BrushifyUrban
+    ├── BrushifyCountryRoads
+    └── ...
+```
+
+Please keep the directory structure unchanged when setting up the simulator environments.
+
 
 ## Evaluation
 
