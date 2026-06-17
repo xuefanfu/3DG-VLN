@@ -171,16 +171,5 @@ The implementation is partly inspired by or adapted from the following projects:
 * [AerialVLN](https://github.com/AirVLN/AirVLN)
 
 
-## Citation
 
-If you find this work useful, please consider citing our paper:
-
-```bibtex
-@article{xxx2026_3dgvln,
-  title={3DG-VLN: High-Resolution UAV Vision-Language Navigation with Online 3D Directional Guidance},
-  author={XXX and XXX and XXX},
-  journal={XXX},
-  year={2026}
-}
-```
 
