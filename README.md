@@ -1,6 +1,6 @@
 # 3DG-VLN
 
-Official implementation of **3DG-VLN**, a high-resolution dual-view UAV vision-language navigation framework with online 3D directional guidance for precise *see-and-reach* target navigation.
+Official implementation of **3DG-VLN**, a high-resolution dual-view UAV vision-language navigation framework with online 3D directional guidance for precise *see-and-reach* navigation.
 
 This repository releases the dataset, source code, and pretrained weights for our 3DG-VLN work.
 
