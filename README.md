@@ -5,7 +5,7 @@ Official implementation of **3DG-VLN**, a high-resolution dual-view UAV vision-l
 This repository releases the dataset, source code, and pretrained weights for our 3DG-VLN work.
 
 <p align="center">
-  <img src="assets/3DG_VLN_Framework.pdf" width="90%">
+  <img src="assets/3DG_VLN_Framework.png" width="90%">
 </p>
 
 ## Highlights
