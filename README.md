@@ -170,6 +170,21 @@ The implementation is partly inspired by or adapted from the following projects:
 * [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
 * [AerialVLN](https://github.com/AirVLN/AirVLN)
 
+## Citation
+
+If you find this repository, code, dataset, or benchmark useful for your research, please consider citing our paper:
+
+```bibtex
+@misc{xue2026seeandreach,
+      title={See-and-Reach: Precise Vision-Language Navigation for UAVs within the Field of View}, 
+      author={Fanfu Xue and En Yu and Yantian Shen and Zhikun Hu and Hongjun Wang and Yang Yang and Xindi Wang and Jiande Sun},
+      year={2026},
+      eprint={2606.20045},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2606.20045}, 
+}
+```
 
 
 
