@@ -4,11 +4,9 @@ Official implementation of **3DG-VLN**, a high-resolution dual-view UAV vision-l
 
 This repository releases the dataset, source code, and pretrained weights for our 3DG-VLN work.
 
-## Overview
-
-3DG-VLN focuses on **UAV vision-language navigation in target-visible scenarios**, where an aerial agent is required to reach a visible target according to a concise natural-language instruction. Different from long-range search-oriented UAV-VLN settings, our task emphasizes fine-grained visual grounding, local 3D spatial reasoning, and precise waypoint-level motion prediction.
-
-Given high-resolution egocentric observations and a coarse 3D directional cue, 3DG-VLN predicts continuous 3D waypoints to guide the UAV toward the target. During inference, an online 3D direction updating strategy is adopted to dynamically refine the target direction from current observations, helping the UAV maintain spatial alignment with the target during closed-loop navigation.
+<p align="center">
+  <img src="assets/3DG_VLN_Framework.pdf" width="90%">
+</p>
 
 ## Highlights
 
