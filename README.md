@@ -44,6 +44,16 @@ The dataset is designed to evaluate precise *see-and-reach* navigation, where th
 The dataset will be released at:
 
 Baidu Cloud: [Dataset Download](链接:https://pan.baidu.com/s/1slWa79ZdNIHid_fwqyhdxA?pwd=ymav 提取码:ymav)  
+or
+[![3DG-VLN](https://img.shields.io/badge/Model-3DG--VLN-yellow?style=for-the-badge)](https://huggingface.co/fanfuxue/3DG-VLN)
+
+The dataset is available at:
+
+- **Baidu Cloud:** [UAV-VLN-FOV Dataset](https://pan.baidu.com/s/1slWa79ZdNIHid_fwqyhdxA?pwd=ymav)  
+  Password: `ymav`
+
+- **Hugging Face:**  
+  [![Dataset](https://img.shields.io/badge/Dataset-UAV--VLN--FOV-green?style=for-the-badge)](https://huggingface.co/datasets/fanfuxue/UAV-VLN-FOV)
 
 After downloading, please organize the dataset as follows:
 
