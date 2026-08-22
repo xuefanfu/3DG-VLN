@@ -65,7 +65,7 @@ After downloading, please organize the dataset as follows:
 
 We provide pretrained weights for the 3DG-VLN model.
 
-- **Baidu Cloud:** [Pretrained Weight Download](https://pan.baidu.com/s/11lLcRczubWA01-33xhbK5A?pwd=sasg)  
+- **Baidu Cloud:** [3DG-VLN Model](https://pan.baidu.com/s/11lLcRczubWA01-33xhbK5A?pwd=sasg)  
   Password: `sasg`
 
 - **Hugging Face:** [3DG-VLN Model](https://huggingface.co/fanfuxue/3DG-VLN)
