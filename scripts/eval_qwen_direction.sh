@@ -1,8 +1,9 @@
 
 
-root_dir=/opt/data/private/lwt-project/3DG-VLN
+PROJECT_ROOT="your_porject_path"
 
-SIM_ROOT=/opt/data/private/lwt-project/FOV-dataset/env_unzip
+root_dir=$PROJECT_ROOT/3DG-VLN
+SIM_ROOT=$PROJECT_ROOT/FOV-dataset/env_unzip
 SIM_PORT=30000
 MASTER_PORT=60001
 GPU_ID=0
@@ -42,7 +43,7 @@ prepare_simulator() {
 
 
     (
-        cd /opt/data/private/lwt-project/3DG-VLN/airsim_plugin || exit 1
+        cd $PROJECT_ROOT/3DG-VLN/airsim_plugin || exit 1
 
         nohup python AirVLNSimulatorServerTool.py \
             --port ${SIM_PORT} \
