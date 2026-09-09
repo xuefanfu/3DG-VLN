@@ -33,6 +33,7 @@ The benchmark contains:
 
 * 2,717 trajectories
 * Concise high-level instruction
+* Initial 3D coarse direction
 * High-resolution dual-view images
 * Continuous 3D waypoint annotations
 * Evaluation splits for seen, unseen-object, and unseen-scene testing
