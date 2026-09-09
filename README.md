@@ -90,7 +90,7 @@ Please place the downloaded weights under:
 │   ├── model_wrapper/          # Model wrappers and visual grounding modules
 │   └── vlnce_src/              # Training and evaluation code
 ├── utils/                      # Utility scripts and evaluation metrics
-├── meta/ 
+├── meta/                       # Inference source
 ├── .gitignore
 ├── LICENSE
 └── README.md
