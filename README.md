@@ -8,6 +8,12 @@ This repository releases the dataset, source code, and pretrained weights for ou
   <img src="assets/3DG_VLN_Framework.png" width="90%">
 </p>
 
+> [!IMPORTANT]
+> ✨ **Training Initial-Direction Prompts Released**
+>
+> We have released the initial coarse-direction prompts for each training trajectory in the `meta` folder of UAV-VLN-FOV.
+
+
 ## Highlights
 
 * **UAV-VLN-FOV Benchmark**
